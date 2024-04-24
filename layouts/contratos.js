@@ -1,0 +1,41 @@
+// layoutContratos.js
+
+// Layout da entidade "contratos"
+module.exports = {
+    tip_reg: { inicio: 1, tamanho: 1 },
+    cod_siste: { inicio: 2, tamanho: 2 },
+    dat_movto: { inicio: 4, tamanho: 8 },
+    tip_inter: { inicio: 12, tamanho: 1 },
+    cod_credor: { inicio: 13, tamanho: 8 },
+    des_regis: { inicio: 21, tamanho: 30 },
+    cod_produt: { inicio: 51, tamanho: 8 },
+    des_contr: { inicio: 59, tamanho: 30 },
+    cod_filia: { inicio: 89, tamanho: 8 },
+    nom_filia: { inicio: 97, tamanho: 45 },
+    cod_rede: { inicio: 142, tamanho: 8 },
+    nom_rede: { inicio: 150, tamanho: 45 },
+    cod_loja: { inicio: 195, tamanho: 8 },
+    nom_loja: { inicio: 203, tamanho: 45 },
+    val_compr: { inicio: 248, tamanho: 18 },
+    val_entra: { inicio: 266, tamanho: 18 },
+    dat_inici_contr: { inicio: 284, tamanho: 8 },
+    qtd_prest: { inicio: 292, tamanho: 3 },
+    cod_moeda: { inicio: 295, tamanho: 8 },
+    mod_venda: { inicio: 303, tamanho: 1 },
+    ind_alter: { inicio: 304, tamanho: 1 },
+    des_bem: { inicio: 305, tamanho: 255 },
+    filler: { inicio: 560, tamanho: 333 },
+    val_taxa_contr: { inicio: 893, tamanho: 18 },
+    dat_negat_spc: { inicio: 911, tamanho: 8 },
+    dat_reabi_spc: { inicio: 919, tamanho: 8 },
+    dat_incon_spc: { inicio: 927, tamanho: 8 },
+    des_incon_spc: { inicio: 935, tamanho: 60 },
+    ind_situa_spc: { inicio: 995, tamanho: 1 },
+    des_nosnum: { inicio: 996, tamanho: 12 },
+    dat_negat_serasa: { inicio: 1008, tamanho: 8 },
+    dat_reabi_serasa: { inicio: 1016, tamanho: 8 },
+    dat_incon_serasa: { inicio: 1024, tamanho: 8 },
+    des_incon_serasa: { inicio: 1032, tamanho: 60 },
+    ind_situa_serasa: { inicio: 1092, tamanho: 1 }
+  };
+  
